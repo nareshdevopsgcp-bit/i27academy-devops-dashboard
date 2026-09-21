@@ -10,7 +10,7 @@ substitutions:
   _REPO: i27academy-devops-dashboard
   _IMAGE: i27academy-devops-dashboard
   _SERVICE: i27academy-devops-dashboard
-  _PROJECT_ID: 'project-297df0e3-3d6b-40a7-aab'  # Replace with your actual GCP project ID
+  _PROJECT_ID: 'project-8c93c92c-4f49-4fb3-a2b'  # Replace with your actual GCP project ID
 
 images:
   - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO}/${_IMAGE}:${COMMIT_SHA}'
